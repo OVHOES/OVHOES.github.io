@@ -9,7 +9,7 @@
   color: white;
 }
 
-p, ul, li {
+a, p, ul, li {
   font-size: 14px;
   line-height: 26px;
   font-family: 'Roboto Mono';
@@ -98,6 +98,12 @@ ul {
   display: none;
 }
 
+.disclaimer {
+  position: absolute;
+  bottom: 0;
+  padding: 4px;
+}
+
 /*
  * Map styles
  */
@@ -136,5 +142,10 @@ ul {
   .nav {
     width: 100%;
     text-align: center;
+  }
+
+  .disclaimer {
+    top: 0;
+    right: 0;
   }
 }
