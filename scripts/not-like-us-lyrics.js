@@ -1,5 +1,4 @@
-
-
+// Self invoking function
 (function setRandomLyrics() {
   const LYRICS = [
     "Say, Drake, I hear you like em young",

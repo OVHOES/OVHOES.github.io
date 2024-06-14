@@ -1,3 +1,4 @@
+// Self invoking function
 (function attachCollapseTriggers() {
   var colTriggers = document.getElementsByClassName('collapse-trigger');
   for (var colTrig of colTriggers) {
@@ -9,6 +10,7 @@
   }
 })();
 
+// Self invoking function
 (function attachViewMapTriggers() {
   var mapTriggers = document.getElementsByClassName('map-trigger');
   for (var mapTrig of mapTriggers) {
