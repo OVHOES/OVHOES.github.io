@@ -20,10 +20,8 @@
     "You run to Atlanta when you need a check balance",
     "Lil Baby helped you get your lingo up",
     "2 Chainz say you good, but he lied",
-    "You run to Atlanta when you need a few dollars",
     "You not a colleague, you a fuckin colonizer",
     "It was God's plan to show y'all the liar",
-    "Let me hear you say OVHOE",
     "Are you my friend? Are we locked in?"
   ];
 
