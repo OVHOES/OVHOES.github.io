@@ -111,6 +111,7 @@ ul {
   bottom: 0;
   padding: 4px;
   display: block;
+  background-color: white;
 }
 
 .disclaimer a {
