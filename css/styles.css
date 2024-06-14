@@ -156,10 +156,10 @@ ul {
   .nav {
     width: 100%;
     text-align: center;
+    margin-left: -14px;
   }
 
   .disclaimer {
-    top: 0;
-    right: 0;
+    position: inherit;
   }
 }
