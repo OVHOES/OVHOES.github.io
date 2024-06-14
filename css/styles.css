@@ -84,6 +84,20 @@ ul {
     display: block;
 }
 
+.logo {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.logo-container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
 /*
  * Map styles
  */
