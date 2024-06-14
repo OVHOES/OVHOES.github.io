@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  <link rel="manifest" href="../assets/site.webmanifest">
+</head>
+<body>
+  <h1>How Information Is Visualized In The Graph</h1>
+  <p><strong>Please note:</strong>
+    </br>
+    Connections depicted in the visualizations provided by RatMapper solely represent follower-followee relationships on social media and do not inherently imply any personal connection or relationship between the individuals. This analysis is based on publicly available data and is intended solely for informational and research purposes. It should not be interpreted as implying any personal relationships or activities.
+  </p>
+  <p>Graphs generated from the weightsets display the mathematical interconnectedness of users based on various metrics. Here's how the different components and data from the weightsets are visualized:</p>
+  <ol>
+    <li>Nodes and Edges
+        <ul>
+            <li>Nodes: Represent individual users in the network. Their positions are determined using a spring layout algorithm.</li>
+            <li>Edges: Represent the connections (following relationships) between users. The weight of an edge indicates the strength of the connection, which could be the number of common connections or interactions between the users.</li>
+        </ul>
+    </li>
+    <li>Node and Edge Colors:
+        <ul>
+            <li>Node Color: Represents the degree of the node, i.e., the number of connections it has. A color scale is used to show this variation, with nodes having more connections being displayed in different shades.</li>
+            <li>Edge Colors: Represent a target node, and are only implemented for the visual tracing of connections between targets.</li>
+        </ul>
+    </li>
+    <li>Interactive features:
+        <ul>
+            <li>When hovering over a node, all other connected nodes in the graph are listed with target nodes being highlighted.</li>
+            <li>Annotations for nodes are toggleable for a better view of the network structure via the '@' and '-' buttons in the top left corner.</li>
+            <li>You can also toggle the visibility of node and edge/trace layers selectively via the legend in the top left corner.</li>
+            <li>Additional controls (2Dpan, zoom, reset scale) accessible via the mode bar in uppermost top right corner.</li>
+        </ul>
+    </li>
+  </ol>
+</body>
+</html>
